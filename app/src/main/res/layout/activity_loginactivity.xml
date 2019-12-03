@@ -17,6 +17,14 @@
     android:textColorHint="@android:color/white"
     android:textSize="40dp"></TextView>
 
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:src="@drawable/hello"
+
+        ></ImageView>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -53,5 +61,14 @@
     android:layout_height="wrap_content"
     android:id="@+id/btnsignin"
     android:hint="Sign in"></Button>
-    
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Sign UP"
+        android:id="@+id/etsignup"/>
+
+
+
 </LinearLayout>
